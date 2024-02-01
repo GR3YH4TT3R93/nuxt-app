@@ -11,7 +11,7 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.{js,ts,vue}": "eslint --fix"
+    "**/*": "eslint --fix"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.6.0",
