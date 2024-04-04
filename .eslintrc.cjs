@@ -6,8 +6,7 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:vue/vue3-essential",
+    "@nuxt/eslint-config",
     "plugin:prettier/recommended",
   ],
   overrides: [
@@ -26,6 +25,5 @@ module.exports = {
     parser: "@typescript-eslint/parser",
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint", "vue"],
   rules: {},
 };
